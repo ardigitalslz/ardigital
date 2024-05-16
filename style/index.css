@@ -81,7 +81,7 @@ body {
   color: var(--azulprincipal);
 }
 #section-inicio .card-text {
-  font-size: clamp(16px, 5vw, 20px);
+  font-size: clamp(16px, 6vw, 20px);
   color: var(--texto);
   font-weight: 400;
   padding: 5px 15px 5px 15px;
