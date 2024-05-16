@@ -1,0 +1,33 @@
+
+#section-inicio {
+    margin-top: 60px;
+    .card {
+        border: none;
+    }
+
+    .card-title {
+        font-size: clamp(26px, 6vw, 50px);
+        font-weight: 900;
+        line-height: 1.0;
+        text-align: center;
+        color: var(--azulprincipal);
+    }
+
+    .card-text {
+        font-size: clamp(16px, 5vw, 20px);
+        color: var(--texto);
+        font-weight: 400;
+        padding: 5px 15px 5px 15px;
+        text-align: justify;
+    }
+
+    .btn-primary {
+        background-color: var(--azulprincipal);
+        &:hover {
+            background-color: #1a73d3;
+    }
+    }
+}
+
+
+
